@@ -7,12 +7,12 @@ Simple graphics library utilised: https://www3.nd.edu/~dthain/courses/cse20211/f
 
 *X11/Xlib.h*
 
-## Compilation
-
-gcc mandelbrot.c gfx.c -o example -lX11 -lm
-
 Install with (Ubuntu):
 `sudo apt install libx11-dev`
+
+## Compilation
+
+`gcc mandelbrot.c gfx.c -o example -lX11 -lm`
 
 ## Controls
 - Space: Increases the iteration count of the visualisation
