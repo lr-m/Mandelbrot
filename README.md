@@ -12,7 +12,9 @@ Install with (Ubuntu):
 
 ## Compilation
 
-`gcc mandelbrot.c gfx.c -o example -lX11 -lm`
+`gcc mandelbrot.c gfx.c -o mandelbrot -lX11 -lm`
+
+`./mandebrot`
 
 ## Controls
 - Space: Increases the iteration count of the visualisation
